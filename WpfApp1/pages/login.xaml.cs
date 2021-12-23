@@ -87,10 +87,11 @@ namespace WpfApp1.pages
 
         }
 
-        private void xiao_MediaEnded(object sender, RoutedEventArgs e)
+
+        private void GIFKA_MediaEnded(object sender, RoutedEventArgs e)
         {
-            xiao.Position = new TimeSpan(0, 0, 1);
-            xiao.Play();
+            GIFKA.Position = new TimeSpan(0, 0, 1);
+            GIFKA.Play();
         }
     }
 }

@@ -17,9 +17,10 @@
                 <GroupBox Header="Введите пароль">
                     <PasswordBox x:Name="txtPassword"/>
                 </GroupBox>
-                <Button Content="Авторизоваться" Name="btnLogin" Click="btnLogin_Click" IsDefault="True" Width="115" />
+               
+                <Button Content="Авторизоваться" Name="btnLogin"  Click="btnLogin_Click" IsDefault="True" Width="115" />
                 <Button Content="Зарегистрироваться" Name="btnRegn" Click="btnRegn_Click"  Width="115" />
-                <MediaElement Name="xiao" Width="500" Source="X:\4 курс\мухин 0101\анимация\MDK0101Tarasova41P-master\MDK0101Tarasova41P-master\WpfApp1\название\dance.gif" MediaEnded="xiao_MediaEnded" UnloadedBehavior="Manual"  />
+                <MediaElement Name="GIFKA" Width="500" Source="название\2f25f44be3d5af5d96b159dbe1fecfe9.gif" MediaEnded="GIFKA_MediaEnded" UnloadedBehavior="Manual"/>
             </StackPanel>
         </GroupBox>
 
