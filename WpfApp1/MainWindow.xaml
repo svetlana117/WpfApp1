@@ -37,8 +37,8 @@
             <RowDefinition Height="29*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="107*"/>
-            <ColumnDefinition Width="298*"/>
+            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="314*"/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <DockPanel Grid.ColumnSpan="2" >

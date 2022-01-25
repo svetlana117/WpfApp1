@@ -28,7 +28,8 @@ namespace WPF1
         {
             InitializeComponent();
             BaswConnect.BaseModel = new Entities();
-            frameMain.Navigate(new login());
+            //frameMain.Navigate(new login());
+            frameMain.Navigate(new Diagram());
             LoadPages.MainFrame = frameMain;
             BaseConnect.BaseModel = new Entities();
         }

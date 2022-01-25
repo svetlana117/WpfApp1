@@ -28,6 +28,7 @@ namespace WpfApp1
         public virtual DbSet<auth> auth { get; set; }
         public virtual DbSet<genders> genders { get; set; }
         public virtual DbSet<roles> roles { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<traits> traits { get; set; }
         public virtual DbSet<users> users { get; set; }
         public virtual DbSet<users_to_traits> users_to_traits { get; set; }

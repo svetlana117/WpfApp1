@@ -70,6 +70,7 @@
     </Compile>
     <Compile Include="BaseConnect.cs" />
     <Compile Include="BaswConnect.cs" />
+    <Compile Include="Classes\Diagram.cs" />
     <Compile Include="genders.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -81,6 +82,9 @@
     <Compile Include="PageChange.cs" />
     <Compile Include="pages\adminMenu.xaml.cs">
       <DependentUpon>adminMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\Diagram.xaml.cs">
+      <DependentUpon>Diagram.xaml</DependentUpon>
     </Compile>
     <Compile Include="pages\EditUser.xaml.cs">
       <DependentUpon>EditUser.xaml</DependentUpon>
@@ -98,6 +102,9 @@
       <DependentUpon>reg.xaml</DependentUpon>
     </Compile>
     <Compile Include="roles.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="traits.cs">
@@ -126,6 +133,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="pages\adminMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\Diagram.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
